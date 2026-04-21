@@ -23,3 +23,6 @@ def add_book(catalog: list[Book], author: str, title: str, year: int) -> Book:
 def list_books(catalog: list[Book]) -> list[Book]:
     """Return a shallow copy to avoid external mutation."""
     return catalog.copy()
+
+                                                                                                                                                                                      
+                                                                                                                                                                          
