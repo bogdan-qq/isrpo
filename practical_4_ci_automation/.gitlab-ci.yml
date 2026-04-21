@@ -1,0 +1,13 @@
+﻿stages:
+  - test
+
+before_script:
+  - apt-get update -qq && apt-get install -y -qq python3 python3-pip
+  - pip install -r requirements.txt
+
+test:
+  stage: test
+  script:
+    - black --check src tests
+    - flake8 src/
+    - pytest tests/ -v

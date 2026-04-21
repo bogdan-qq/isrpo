@@ -1,0 +1,20 @@
+﻿# Файл .gitignore
+# Виртуальное окружение Python
+venv/
+.venv/
+env/
+
+# Кэш интерпретатора Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы настроек IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи и временные файлы
+*.log
+*.tmp
