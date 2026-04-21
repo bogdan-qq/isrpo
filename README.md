@@ -9,7 +9,7 @@
 
 🚀 Инструкция по запуску
 1. Клонирование репозитория
-git clone https://github.com/mariyaproZZZ/9_IS21.git
+git clone (https://github.com/bogdan-qq/isrpo.git)
 
 cd isrpo
 
