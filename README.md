@@ -20,6 +20,8 @@ git clone (https://github.com/bogdan-qq/isrpo.git)
 
 cd isrpo
 
+
+
 2. Запуск компонентов
    
 python 9_modul_a.py # Генерация
@@ -29,29 +31,17 @@ python 9_modul_b.py # Проверка сложности
 python 9_modul_c.py # Сохранение
 
 
+
+
+
 🧪 Разработки и испытания
 Установка окружения
 
 
-pip install pytest flake8 black
-
-Исходный код и форматирование
-
-Черный (автоформатирование):
-
-черный 9_modul_a.py 9_modul_b.py 9_modul_c.py
-
-Flake8 (проверка стиля):
-
-flake8 9_modul_a.py 9_modul_b.py 9_modul_c.py
-
-Запуск Unit-тестов
-
-pytest tests/ -v
 
 
 
 📊 Статус тестов
 
-Все модули успешно прошли проверку:
+Все модули успешно прошли проверку
 
